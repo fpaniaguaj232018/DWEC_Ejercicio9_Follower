@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Document</title>
+    <script>
+        function follow(evento){
+            var x = evento.clientX;
+            var y = evento.clientY;
+            var ref = document.getElementById("imagen");
+            ref.style.left=x-100+"px";
+            ref.style.top=y-100+"px";
+        }
+    </script>
+</head>
+<body onmousemove="follow(event)">
+    <div id="carcasa"></div>
+    <div id="imagen">
+        <img width="200px" src="images/ds.png">
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+* {
+	margin:0px;
+}
+body {
+	width: 100%;
+	height: 1000px;
+}
+#carcasa {
+	width: 100%;
+	height: 100%;	
+}
+
+#imagen{
+	position: absolute;
+	top:10px;
+	left:10px;
+}
